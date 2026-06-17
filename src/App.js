@@ -245,7 +245,7 @@ function App() {
         </div>
         <div className="videos-grid">
           {[
-            {  src: "/Videos/marketing-vid.mp4" },
+            { src: "https://res.cloudinary.com/dwvyqg1pg/video/upload/v1781657972/marketing-vid.mp4" },
           ].map((v, i) => (
             <div className="video-card fade-up" key={i}>
              
