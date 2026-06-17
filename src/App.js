@@ -115,7 +115,7 @@ function App() {
 
       {/* NAV */}
       <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-        <a href="#" className="nav-logo">SoftwareGuard</a>
+     <span className="nav-logo">SoftwareGuard</span>
 
 
         <button
