@@ -192,7 +192,7 @@ function App() {
           <p>
             SoftwareGuard is a web-based enterprise platform that assists
             organizations in creating, reviewing, validating, and monitoring
-            software contracts.
+            software contracts based on Egyptian law and internal company policies.
           </p>
           <p>
             By combining AI, Large Language Models (LLMs), NLP, and OCL,
@@ -200,6 +200,11 @@ function App() {
             ambiguities, and inconsistencies with company policies and
             technical documentation.
           </p>
+     <p>
+  SoftwareGuard offers integrated Arabic and English language support,
+  enabling organizations to efficiently manage contracts in a bilingual
+  environment.
+</p>
         </div>
       </section>
 
