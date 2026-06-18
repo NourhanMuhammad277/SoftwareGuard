@@ -325,16 +325,50 @@ function App() {
           <div className="footer-cols">
             <div className="footer-col">
               <div className="footer-label">Project</div>
-              <p>Graduation Project 2025/2026</p>
+           <p>
+  <a
+    href="https://cscgp.miuegypt.edu.eg/graduation-projects/graduation-projects-2025-2026/swe-gp-25-26/swe2608/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Graduation Project 2025/2026
+  </a>
+</p>
               <p>Faculty of Computer Science</p>
-              <p>Misr International University</p>
+              <p>
+  <a
+    href="https://www.linkedin.com/school/misr-international-university/posts/?feedView=all"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Misr International University
+  </a>
+</p>
             </div>
 
-            <div className="footer-col">
-              <div className="footer-label">Supervised by</div>
-              <p>Asst. Prof. Nissreen El-Saber</p>
-              <p>Eng. Rana Mohamed</p>
-            </div>
+       <div className="footer-col">
+  <div className="footer-label">Supervised by</div>
+
+  <p>
+    <a
+      href="https://www.linkedin.com/in/nissreenelsaber/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Asst. Prof. Nissreen El-Saber
+    </a>
+  </p>
+
+  <p>
+    <a
+      href="https://www.linkedin.com/in/rana-mohamed-abulkassem-142611277/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Eng. Rana Mohamed
+    </a>
+  </p>
+</div>
 
             <div className="footer-col">
               <div className="footer-label">Developed by</div>

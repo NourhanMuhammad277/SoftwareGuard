@@ -695,3 +695,13 @@ footer {
 }
 
 ::selection { background:rgba(26,143,255,.3); color:#fff; }
+
+.footer-col a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: #00d4ff; /* or your theme color */
+}
