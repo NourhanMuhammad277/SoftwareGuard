@@ -245,19 +245,28 @@ function App() {
       {/* ═══════════════ VIDEOS ═══════════════ */}
       <section className="video-section">
         <div className="section-header fade-up">
-          <h2>Marketing Video</h2>
+          <h2> Videos </h2>
   
         </div>
-        <div className="videos-grid">
-          {[
-            { src: "https://res.cloudinary.com/dwvyqg1pg/video/upload/v1781657972/marketing-vid.mp4" },
-          ].map((v, i) => (
-            <div className="video-card fade-up" key={i}>
-             
-              <video controls>
-                <source src={v.src} />
-              </video>
-            </div>
+       <div className="videos-grid">
+    {[
+      {
+        title: "Marketing Video",
+        src: "https://res.cloudinary.com/dwvyqg1pg/video/upload/v1781657972/marketing-vid.mp4",
+      },
+      {
+        title: "Demo Video",
+        src: "https://res.cloudinary.com/dwvyqg1pg/video/upload/v1782300420/WhatsApp_Video_2026-06-11_at_4.13.08_PM_zcm1w1.mp4",
+      },
+    ].map((v, i) => (
+      <div className="video-card fade-up" key={i}>
+        <h3>{v.title}</h3>
+
+        <video controls>
+          <source src={v.src} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
           ))}
         </div>
       </section>

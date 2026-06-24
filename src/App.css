@@ -406,8 +406,10 @@ section { padding:5rem 5%; position:relative; z-index:1; }
 .video-section { background:var(--navy-900); }
 .videos-grid {
   display: flex;
-  justify-content: center;
+  flex-direction: column;   /* stack vertically */
   align-items: center;
+  gap: 2rem;                /* space between videos */
+  width: 100%;
 }
 
 .video-card {
